@@ -1,0 +1,54 @@
+# Configuring Git Commands 
+1. git config --global user.name "userName"
+2. git config --global user.email "userEmail@gmail.com"
+3. git config --list 
+
+# Clone a Github Repository
+1. git clone link
+
+# Check status of Github Repository
+1. git status
+
+# Add Command
+1. git add .
+2. git add fileName
+
+# Commit Command
+1. git commit -m "Message"
+
+# Push Command
+1. git push -u origin main --> git push 
+2. git push origin main 
+
+# Init Command
+1. git init 
+2. git remote add origin link 
+    git remove -v (to verify remote)
+    git branch (to check branch)
+3. git branch -M main (to rename branch) 
+4. git push origin main 
+
+# Branch Command
+1. git branch
+2. git branch -M main
+3. git checkout -b branchName (to create new branch)
+4. git checkout branchName (to navigate into branch)
+5. git branch -d branchName (to delete branch)
+
+# Merge Code Command
+1. git diff branchName
+2. git merge branchName 
+
+# Pull Command
+1. git pull origin main
+
+# Undoing Change Command
+1. Staged Change
+    git reset fileName
+    git reset 
+2. Committed Change
+    git reset HEAD~1 (for one)
+    git reset Hash (for multiple)
+    git reset --hard Hash 
+
+    
